@@ -1,0 +1,72 @@
+/* This is a best practice to start with 0 margin and 0 padding, explictly give to all elements margin and padding. */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+h1 {
+    background-color: greenyellow;
+    /* border-style: solid;
+    border-color: rgb(255, 0, 0);
+    border-width: 3px; */
+    margin-left: 5px;
+    margin-top: 5px;
+    padding: 5px;
+    /* margin-bottom: 0%; */
+    /* height: 200px; */
+    
+    border: solid rgb(0, 0, 0) 3px;
+    /* border-radius: 7px; */
+    /* border-bottom: solid red 5px; */
+    width: 550px;
+    
+}
+
+#para1 {
+    background-color: rgba(236, 93, 241, 0.794);
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 7px;
+    width: 550px;
+    padding: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+    height: 150px;
+
+
+}
+
+#para2 {
+    background-color: rgba(33, 239, 184, 0.696);
+    border: solid rgb(0, 0, 0) 3px;
+    border-radius: 7px;
+    width: 550px;
+    padding: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+    
+}
+
+#para3 {
+    background-color: rgba(230, 67, 99, 0.609);
+    border: solid rgb(0, 0, 0) 3px;
+    border-radius: 7px;
+    width: 550px;
+    margin-left: 5px;
+    padding: 5px;
+    margin-top: 5px;
+    
+}
+
+
+#para4 {
+
+    background-color: rgb(229, 229, 97);
+    /* border:rgb(0, 0, 0); */
+    padding: 30px;
+    margin: 30px;
+    border: solid black 5px;
+} 
+
