@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Variables</title>
+    <style>
+        /* global variables */
+        :root {
+            --color: rgb(129, 129, 219);
+            --secolor: rgb(0, 255, 162);
+        }
+        p {
+            /* fall back color */
+           
+            background-color: var(--color, red);
+            color: var(--secolor);
+        }
+        span {
+            --redcolor: red;
+            background-color: var(--redcolor);
+        }
+    </style>
+</head>
+<body>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quasi in doloribus non voluptatum mollitia consequatur, iusto deserunt distinctio ab. Quasi placeat incidunt enim doloribus ad, necessitatibus aliquam eaque quisquam!<20>
+
+        </20>
+    </p>
+
+    <span>
+        lorem*10 lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, dolores?
+    </span>
+    
+</body>
+</html>
