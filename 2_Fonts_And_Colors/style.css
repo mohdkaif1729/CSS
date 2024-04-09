@@ -1,0 +1,26 @@
+#para1 {
+    /* font-size: 30px; */
+    font-weight: 500; 
+    font-size: 20px;
+    font-style: italic;
+    line-height: 25px;
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+    color: rgb(150, 9, 9);
+    background-color: rgba(39, 198, 145, 0.439);
+
+
+}
+#para2 {
+
+    line-height: 25px;
+    font-size: 20px;
+    background-color: hsl(95, 87%, 69%);
+    color: rgb(255, 0, 0);
+}
+#para3 {
+
+    font-size: 20px;
+    background-color: hsla(288, 69%, 75%, 0.534);
+    line-height: 25px;
+
+}
