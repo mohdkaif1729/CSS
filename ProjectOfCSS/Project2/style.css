@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+.main {
+    background-color: rgb(137, 224, 137);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card {
+    display: flex;
+    
+    flex-direction: column;
+    
+    height: 359px;
+    width: 288px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.card-img {
+    height: 220px;
+    width: 288px;
+    object-fit: cover;
+    padding: 10px;
+    border-radius: 15px
+}
+
+.heading {
+    /* background-color: red; */
+    padding: 10px;
+}
+
+.card-content {
+    /* background-color: violet; */
+    padding: 10px;
+}
