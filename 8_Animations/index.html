@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        .container {
+            width: 100vw;
+            height: 100vh;
+            background-color: rgb(158, 244, 255);
+            box-sizing: border-box;
+            border: 2px solid black;
+            display: flex;
+            /* justify-content: center;
+            align-items: center; */
+        }
+        .box {
+            /* margin: 20px; */
+            width: 200px;
+            height: 200px;
+            box-sizing: border-box;
+            border: 2px solid black;
+            background-color: rgb(128, 0, 255); 
+            position: relative;
+            animation-name: boxanimation;
+            animation-duration: 4s;
+            /* animation-direction: normal; */
+            /* animation-timing-function: linear; */
+            animation-iteration-count: 5;
+            animation-delay: 0s;
+        }
+
+        @keyframes boxanimation {
+            0% {
+                top: 0px;
+                left: 0px;
+                background-color: rgb(0, 255, 47);
+            }
+            25% {
+                top: 0px;
+                left: 1332px;
+                background-color: rgb(255, 0, 0);
+            }
+            50% {
+                top: 533px;
+                left: 1332px;
+                background-color: rgb(4, 0, 255);
+            }
+            75% {
+                top: 533px;
+                left: 0px;
+                background-color: rgb(255, 0, 191);
+            }
+            100% {
+                top: 0px;
+                left: 0px;
+                background-color: rgb(0, 255, 47);
+            }
+            
+        }   
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="box"></div>
+    </div>
+
+</body>
+</html>
