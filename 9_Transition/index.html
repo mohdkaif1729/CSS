@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        .container {
+            width: 100vw;
+            height: 100vh;
+            background-color: rgb(158, 244, 255);
+            box-sizing: border-box;
+            border: 2px solid black;
+            display: flex;
+            
+            
+
+
+        }
+        .left {
+            transition-property: width;
+            transition-duration: 1s;
+            transition-delay: 0s;
+            transition-timing-function: linear;
+            width: 48%;
+            margin: 10px;
+            background-color: rgb(255, 70, 70);
+            border: 2px solid black;
+            
+            box-sizing: border-box;
+
+        }
+        .right {
+     
+            width: 48%;
+            margin: 10px;
+      
+            background-color: rgb(106, 83, 255);
+            border: 2px solid black;
+            
+            box-sizing: border-box;
+        }
+        .left:hover {
+            width: 75%;
+            /* border-radius: 50%; */
+
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="left"></div>
+        <div class="right"></div>
+    </div>
+
+</body>
+</html>
