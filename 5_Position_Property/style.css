@@ -1,0 +1,462 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+p {
+    font-size: 10px;
+}
+.box1 {
+    width: 500px;
+    height: 500px;
+    
+    /* border: 5px solid rgb(0, 0, 0); */
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+    left: 200px;
+    top: 100px;
+
+}
+
+.box2 {
+    width: 10em;
+    /* width: 80%; */
+    height: 10em;
+    /* height: 50vh; */
+    /* border: 2px solid black; */
+    background-color: rgb(0, 0, 0);
+
+}
+/* .box3 { */
+    /* width: 100vw; */
+    /* width: 80%; */
+    /* height: 30px; */
+    /* height: 20vh; */
+    /* border: 2px solid black; */
+    /* background-color: rgb(0, 106, 25); */
+
+/* } */
+
+
+
+
+
+
+
+
+/* * {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.boxof2 {
+    border: 2px solid black;
+    width: 800px;
+    height: 1000px;
+    display: inline-block;
+}
+
+.box {
+    width: 800px;
+    height: 1000px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+#box1 {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    background-color: red;
+    position: sticky;
+    top: 100px;
+}
+#box2 {
+    width: 100px;
+    display: inline-block;
+    height: 100px;
+    background-color: green;
+    border: 2px solid black;
+}
+#box3 {
+    width: 100px;
+    display: inline-block;
+    height: 100px;
+    background-color: blue;
+    border: 2px solid black;
+}
+#box4 {
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    display: inline-block;
+    border: 2px solid black;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* div { */
+    /* width: 10px; */
+    /* height: 10px; */
+    /* width: 50%; */
+    /* border-radius: 50%; */
+    /* background-color: rgb(43, 0, 255); */
+    /* border: 3px solid rgb(43, 33, 183);
+    border-top: 3px solid black;
+    animation: Loder 1s steps(3) 0.5s infinite normal; 
+    position: absolute;
+    left: 50%
+
+} */
+
+/* @keyframes Loder {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+} */
+
+
+
+
+
+
+/* div {
+    background-color: rgb(0, 181, 172);
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    left: 100px;
+    top: 100px; */
+    /* animation-name: Myanimation;
+    animation-duration: 0.25s;
+    animation-delay: 0s; */
+    /* animation-timing-function: ease-in; */
+    /* animation-iteration-count: infinite; */
+    /* animation-direction: normal; */
+    /* transition-property: all;
+    transition-duration: 2s; */
+    /* transition-timing-function: steps(3); */
+    /* transition-timing-function: ease-in;
+    transition-delay: 1s; */
+    /* transition:all 2s ease-in 0.5s; */
+    /* animation: Myanimation 2s ease-in  0s infinite alternate-reverse; */
+    /* transform: rotate(45deg); */
+    /* rotate: 180deg; */
+    /* rotate: z 45deg; */
+    /* transform: scale(.5); */
+    /* transition: all 2s ease-in; */
+/* } */
+
+/* div:hover {
+    background-color: red;
+    color: black;
+    font-size: 30px;
+    transform: rotate(360deg);
+    transform: scalex(2);
+    transform: translate(200px, 200px);
+    transform: skew(180deg);
+   
+
+
+} */
+/* @keyframes Myanimation {
+    from {left:0px}
+    to {left: 500px}
+    0% {
+        left: 0Px;
+    }
+    50% {
+        background-color: green;
+    }
+    100% {
+        left: 500px;
+    }
+
+} */
+/* div:active {
+    background-color: rgb(33, 250, 0);
+    color: black;
+    font-size: 30px;
+
+} */
+/* @media(max-width: 300px) {
+    div {
+        background-color: green;
+    }
+}
+@media(min-width: 300px)and (max-width: 400px) {
+    div {
+        background-color: rgb(210, 67, 207);
+    }
+}
+@media(min-width: 400px)and (max-width: 600px) {
+    div {
+        background-color: rgb(255, 0, 0);
+    }
+}
+@media(min-width: 600px) {
+    div {
+        background-color: rgb(1, 5, 255);
+    }
+} */
+
+/* @media(width: 600px) {
+    div {
+        background-color: red;
+    }
+}
+
+@media(min-width: 500px) {
+    div {
+        background-color: green;
+    }
+} */
+
+/* body {
+    text-align: center;
+}
+div {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 2px solid black;
+
+}*/
+
+/* #container {
+    width: 800px;
+    height: 200px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-direction: row-reverse;
+    flex-direction: column;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly;
+} */
+
+
+/* #box1 {
+    background-color: aqua;
+}
+#box2 {
+    background-color: rgb(0, 255, 64);
+}
+#box3 {
+    background-color: rgb(225, 255, 0);
+}
+#box4 {
+    background-color: rgb(93, 0, 255);
+}
+#box5 {
+    background-color: rgb(255, 0, 0);
+}  */
+/* * {
+    background-color: #414141;
+    color: white;
+}
+
+div {
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-image: url(./HTML/ProjectsOfHTML/Project1/myphoto.jpg);
+    background-size: cover;
+
+}
+
+#para {
+    text-align: center;
+    background-color: #ffffff;
+    color: black;
+    font-size: 20px;
+    margin-top: 1px;
+}
+#divcontainer {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+} */
+/* div {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+#box2 {
+    background-image: url(./HTML/ProjectsOfHTML/Project1/myphoto.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+
+
+
+
+
+
+/* div {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+#box1 {
+    position: sticky;
+    top:20px;
+
+}
+#box2 {
+    position: relative;
+    top:20px;
+    right: 100px;
+    left: 350px;
+}*/
+
+/*#box3 {
+    position: absolute;
+    top: 10px;
+    right: 100px;
+    z-index: 1;
+
+
+}
+
+#box4 {
+    position: fixed;
+    top: 10px;
+    right: 100px;
+
+
+} */
+
+
+/* * {
+    margin: 0px;
+    padding: 0px;
+}
+
+#div1 {
+    background-color:#f08804;
+    width: 400px;
+    height: 400px;
+    font-size:20px;
+    height: 100vh;
+    width: 100vw;
+} */
+/* #div2 {
+    background-color:hsl(0, 97%, 48%);
+    width: 70%;
+    height: 50%;
+    font-size:10px;
+    width: 10em;
+} */
+/* * {
+    margin: 0px;
+    padding: 0px;
+    color: #ffffff;
+    background-color: #414141;
+    
+    
+}
+h1 {
+    text-align: center;
+
+}
+header {
+    margin-top: 20px;
+    height: 100px;
+    background-color:aquamarine;
+}
+main {
+    height: 100px;
+    border: 5px solid black;
+    background-color: orange;
+}
+footer {
+    margin-top: 20px;
+    height: 100px;
+    border: 5px solid black;
+    background-color:bisque;
+} */
+
+
+/* * {
+    margin: 0px;
+    padding: 0px;
+    color: #ffffff;
+    
+    background-color: #150073;
+}
+li {
+    display: inline;
+    margin-right: 200px;
+    background-color: black;
+    
+}
+ul {
+    
+    
+    background-color: black;
+}
+#text {
+    background-color: white;
+}
+nav {
+    height: 60px;
+    background-color: black;
+    border: 5px solid white;
+}
+button {
+    background-color: orange;
+}
+#amazon {
+    font-size: 25px;
+    color: orange;
+} */
+
+/* #navbar {
+    background-color: #0f1111;
+    height: 60px;
+    border: 5px solid white;
+    
+}
+#input {
+    background-color: white
+}
+a {
+    text-decoration: none;
+    background-color: #0f1111;
+    margin-right: 200px;
+}
+button {
+    background-color: #f08804;
+}
+#amazon {
+    font-size: 25px;
+    color: #f08804;;
+} */
